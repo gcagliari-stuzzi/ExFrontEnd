@@ -1,0 +1,52 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    /* Mette gli elementi uno sotto l'altro */
+    align-items: center;
+    /* Li centra orizzontalmente */
+    margin-top: 100px;
+    /* Sposta tutto un po' più in basso dal bordo alto */
+}
+
+input {
+    width: 800px;
+    border-radius: 250px;
+    border: 2px solid darkslategray;
+    /* Quel grigio chiaro sottile */
+    padding: 10px 20px;
+    /* Spazio interno per non far toccare il testo ai bordi */
+    outline: none;
+    /* Toglie il bordo blu predefinito quando clicchi */
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    /* Centra i bottoni nel mezzo della pagina */
+    gap: 20px;
+    /* Crea un po' di spazio tra i due bottoni */
+    margin-top: 20px;
+    /* Stacca i bottoni dalla barra di ricerca */
+}
+
+button {
+    background-color: #f8f9fa;
+    /* Un grigio molto chiaro per lo sfondo */
+    padding: 10px 16px;
+    border-radius: 8px;
+    border-color: chocolate;
+    /* colora i bordi */
+    cursor: pointer;
+    /* Fa apparire la manina quando ci passi sopra */
+}
+
+#logo {
+    height: 320px;
+    padding-bottom: 30px;
+}
+
+#scatolafooterdx {
+    display: flex;
+    width: 100px;
+    align-items: right;
+}
