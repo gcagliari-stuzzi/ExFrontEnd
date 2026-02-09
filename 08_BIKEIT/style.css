@@ -1,0 +1,130 @@
+.container-principale {
+    padding: 5px;
+    margin: 15px;
+    font-family: panton-regular, sans-serif;
+    box-sizing: border-box;
+    /*background-color: sandybrown;*/
+}
+
+.containerpadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 350px;
+    /*background-color: greenyellow;*/
+}
+
+h1 {
+    font-family: panton-extra-bold, sans-serif;
+    font-size: 80px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.containerfiglio {
+    flex: 1;
+    flex-direction: column;
+    margin: 35px;
+    /*background-color: darkblue;*/
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 600px;
+    object-fit: cover;
+    /*background-color: lightsalmon;*/
+}
+
+h2 {
+    font-family: panton-bold, sans-serif;
+    font-size: 40px;
+}
+
+.boxinfo {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.containerpadre2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.containerfiglio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.boxinfo2 {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fakeimg {
+    background-color: grey;
+    width: 50px;
+    height: 75px;
+    margin-bottom: 0.5px;
+}
+
+h3 {
+    font-family: panton-bold, sans-serif;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.containerlogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 75%;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.logo {
+    border: 1px solid grey;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+
+.contenitore_recensioni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.recensione {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 180px;
+    min-width: 50px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}

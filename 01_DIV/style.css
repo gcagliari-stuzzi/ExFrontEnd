@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.rosso {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.aqua {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.immagine_moto {
+    display: flex;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: auto;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}

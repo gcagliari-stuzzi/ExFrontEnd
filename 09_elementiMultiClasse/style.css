@@ -1,0 +1,55 @@
+.size_box {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.color_box_red {
+    background-color: red;
+}
+
+.color_box_blue {
+    background-color: blue;
+}
+
+.color_box_green {
+    background-color: green;
+}
+
+.color_box_yellow {
+    background-color: yellow;
+}
+
+/*size telefono*/
+.responsive {
+    background-color: coral;
+}
+
+/*size tablet*/
+@media (min-width:769px) {
+    .responsive {
+        background-color: green;
+    }
+}
+
+/*size desktop*/
+@media (min-width:1024px) {
+    .responsive {
+        background-color: violet;
+    }
+}
+
+h1 {
+    color: greenyellow !important
+}
+
+.class1 {
+    color: deeppink
+}
+
+
+#coloreacazzo {
+    color: aquamarine;
+}

@@ -1,0 +1,141 @@
+/* Stili di base */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container-principale {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titolo {
+    font-size: 32px;
+    font-weight: bold;
+    color: black
+}
+
+.filtri-container {
+    border: 1px solid lightslategray;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+/* Sottotitolo */
+.sottotitolo {
+    color: lightslategrey;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Lista itinerari */
+.lista-itinerari {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card itinerario - CON BORDO GRIGIO SOTTILE */
+.itinerario-card {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* Sezione immagini */
+.sezione-immagini {
+    display: flex;
+    width: 280px;
+    margin-right: 20px;
+}
+
+.badge-location {
+
+    background-color: violet;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.img-principale {
+    width: 180px;
+    height: 120px;
+    background-color: green;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.immagini-piccole {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-piccola-1 {
+    width: 80px;
+    height: 57px;
+    background-color: blue;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.img-piccola-2 {
+    width: 80px;
+    height: 57px;
+    background-color: yellow;
+    border-radius: 6px;
+}
+
+/* Sezione dettagli */
+.sezione-dettagli {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.titolo-itinerario {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.sottotitolo {
+    font-size: 14px;
+    color: lightslategray;
+    margin-bottom: 15px;
+}
+
+.caratteristiche {
+    display: flex;
+}
+
+.caratteristica {
+    color: green;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+/* Sezione prezzo */
+.sezione-prezzo {
+    display: flex;
+    align-items: center;
+}
+
+.prezzo-container {
+    background-color: white;
+    color: blue;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+}
